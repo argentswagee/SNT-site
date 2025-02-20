@@ -1,0 +1,93 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: url(porsche-cayenne-platinium-edition-2-ad6945-0@3x.webp);
+    text-align: center;
+    overflow: hidden;
+}
+
+.bckfilter {
+    backdrop-filter: blur(15px);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.301);
+}
+
+.img {
+    height: auto;
+    width: 40%;
+    border-radius: 40px;
+    position: absolute;
+    left: 30%;
+    box-shadow: 1px 1px 100px rgb(0, 0, 0);
+    top: 25%;
+    animation: img 3s;
+}
+
+@keyframes img {
+    0% {
+        filter: blur(10px);
+    }
+    100% {
+        filter: blur(0px);
+    }
+}
+
+.widget1 {
+    background-color: rgba(255, 255, 255, 0.425);
+    position: absolute;
+    top: 10%;
+    height: 70%;
+    border-radius: 20px;
+    padding: 1%;
+    font-family: 'Chewy';
+    left: 3%;
+    box-shadow: 1px 1px 100px rgb(0, 0, 0);
+    max-width: 20%;
+    text-align: justify;
+    animation : widget1 2s;
+}
+
+@keyframes widget1 {
+    0% {
+        left: -50%;
+    }
+    100% {
+        left: 3%;
+    }
+}
+
+.widget2 {
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 10%;
+    height: 71%;
+    border-radius: 20px;
+    padding: 1%;
+    font-family: 'Chewy';
+    right: 5%;
+    box-shadow: 1px 1px 100px rgb(0, 0, 0);
+    max-width: 20%;
+    text-align: justify;
+    animation : widget2 2s;
+}
+
+@keyframes widget2 {
+    0% {
+        right: -50%;
+    }
+    100% {
+        right: 5%;
+    }
+}
+
+.title {
+    color: white;
+    font-size: 300%;
+    position: relative;
+    font-family: 'Chewy';
+}
