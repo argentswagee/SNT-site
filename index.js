@@ -1,6 +1,7 @@
 
 function cookie() {
     document.getElementById("footer").style.display = 'none';
+    alert('Website may not be responsive')
 }
 document.getElementById('cookier').addEventListener('click', cookie);
 document.getElementById('cookiea').addEventListener('click', cookie);
