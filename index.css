@@ -103,7 +103,6 @@ body {
     animation-name: surbrillancewhite;
     cursor: pointer;
     animation-duration: 4s;
-
 }
 
 @keyframes surbrillancewhite {
@@ -172,7 +171,7 @@ body {
     position: absolute;
     top: 55%;
     left: 5%;
-    max-width: 23%;
+    max-width: 24%;
     padding: 1%;
     border-radius: 20px;
     box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.76);
@@ -199,7 +198,7 @@ body {
     position: absolute;
     top: 55%;
     left: 36%;
-    max-width: 23%;
+    max-width: 24%;
     padding: 1%;
     border-radius: 20px;
     box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.76);
@@ -215,7 +214,7 @@ body {
     position: absolute;
     top: 55%;
     left: 67%;
-    max-width: 23%;
+    max-width: 24%;
     padding: 1%;
     border-radius: 20px;
     box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.76);
